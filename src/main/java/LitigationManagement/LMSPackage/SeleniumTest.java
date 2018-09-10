@@ -14,7 +14,7 @@ public class SeleniumTest {
 		try {
 			String workingDirectory = System.getProperty("user.dir");
 			System.setProperty("webdriver.chrome.driver", workingDirectory + "\\Config\\Driver\\chromedriver.exe");
-
+            /*Initialize google chrome*/
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("test-type");
 			options.addArguments("start-maximized");
