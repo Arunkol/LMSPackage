@@ -41,4 +41,5 @@ public class CommonMethods {
 		System.out.println("Selected Random number: "+Rvalue);
 		return Rvalue;
 		}
+	
 }
