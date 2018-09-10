@@ -29,6 +29,7 @@ public class CommonMethods {
 	public static String getValueFromTextBox(WebElement ele){
 		String txtBoxValue= ele.getAttribute("value");
 		return (txtBoxValue);
+		
 	}
 	
 	public static int randomDropDownIndex(Select dropDown) {
